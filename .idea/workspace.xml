@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587c0bf1-7468-489d-b8e0-f9ff2d7a3734" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MemorialDay.php" afterPath="$PROJECT_DIR$/MemorialDay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="587c0bf1-7468-489d-b8e0-f9ff2d7a3734" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +11,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemorialDay.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemorialDay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MemorialDay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="570">
+              <caret line="54" column="5" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
               <folding>
-                <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+                <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#131#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,6 +41,7 @@
     <findStrings>
       <find>bt_color</find>
       <find>add_date_section</find>
+      <find>word</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -42,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MemorialDay.php" />
+        <option value="$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php" />
       </list>
     </option>
   </component>
@@ -74,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -97,12 +108,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,11 +153,12 @@
       <workItem from="1500718412473" duration="88000" />
       <workItem from="1500719346435" duration="663000" />
       <workItem from="1500720246415" duration="926000" />
+      <workItem from="1500722378601" duration="2864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22728000" />
+    <option name="totallyTimeSpent" value="25592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -190,7 +202,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -200,7 +212,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -210,7 +222,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -220,7 +232,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -230,7 +242,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -240,7 +252,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
@@ -250,17 +262,37 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MemorialDay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500720914859" expanded="true" signature="3692:3741" ph="..." />
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#131#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
