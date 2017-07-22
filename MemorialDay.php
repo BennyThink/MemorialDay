@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: 纪念日
-Plugin URI:
+Plugin URI: https://github.com/BennyThink/MemorialDay
 Description: 在指定日期将网站改成黑白色来缅怀逝去的生命
-Version: 0.2.0
+Version: 0.2.1
 Author: Benny小土豆
 Author URI: http://www.bennythink.com
 */
@@ -36,7 +36,7 @@ function memorial_day() {
 
 	if ( strstr( $custom_date, date( 'm-d', time() ) ) ):?>
 
-        <meta name="theme-color" content="#757575">
+        <meta name="theme-color" content="757575">
         <style type="text/css">
             <!--
             html {
@@ -46,11 +46,22 @@ function memorial_day() {
 
             -->
         </style>
+		<?php change_meta() ?>
+
 	<?php elseif ( ! empty( $theme_color ) ): ?>
         <meta name="theme-color" content="<?= $theme_color; ?>">
+		<?php change_meta($theme_color) ?>
 	<?php endif; ?>
 <?php }
 
+function change_meta($hex_color='757575') {
+	?>
+    <script>
+        var meta = document.getElementsByTagName('meta');
+        meta["theme-color"].setAttribute('content', '<?="#".$hex_color?>');
+    </script>
+	<?
+}
 
 add_filter( 'plugin_action_links', 'add_qzone_settings_link', 10, 2 );
 function add_qzone_settings_link( $links, $file ) {
