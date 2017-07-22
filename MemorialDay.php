@@ -3,7 +3,7 @@
 Plugin Name: 纪念日
 Plugin URI:
 Description: 在指定日期将网站改成黑白色来缅怀逝去的生命
-Version: 0.2
+Version: 0.2.0
 Author: Benny小土豆
 Author URI: http://www.bennythink.com
 */
@@ -46,13 +46,13 @@ function memorial_day() {
 
             -->
         </style>
-	<?php else: ?>
+	<?php elseif ( ! empty( $theme_color ) ): ?>
         <meta name="theme-color" content="<?= $theme_color; ?>">
-
 	<?php endif; ?>
 <?php }
 
 
+add_filter( 'plugin_action_links', 'add_qzone_settings_link', 10, 2 );
 function add_qzone_settings_link( $links, $file ) {
 	static $this_plugin;
 	if ( ! $this_plugin ) {
@@ -66,8 +66,6 @@ function add_qzone_settings_link( $links, $file ) {
 
 	return $links;
 }
-
-add_filter( 'plugin_action_links', 'add_qzone_settings_link', 10, 2 );
 
 
 add_action( 'admin_menu', 'plugin_admin_add_page' );
@@ -135,7 +133,4 @@ type='text' value='{$options['text_string']}' />" . "<br>" . "<br>";
 
 
 }
-
-
-
 

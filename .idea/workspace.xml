@@ -18,11 +18,10 @@
       <file leaf-file-name="MemorialDay.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MemorialDay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            <state relative-caret-position="2432">
+              <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding>
-                <element signature="e#6#143#0#PHP" expanded="true" />
-                <marker date="1500713839054" expanded="true" signature="3385:3434" ph="..." />
+                <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,8 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,6 +96,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,11 +138,13 @@
       <workItem from="1500691016161" duration="241000" />
       <workItem from="1500691718518" duration="17628000" />
       <workItem from="1500713758312" duration="79000" />
+      <workItem from="1500714634400" duration="2987000" />
+      <workItem from="1500718412473" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18064000" />
+    <option name="totallyTimeSpent" value="21139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -187,8 +188,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
-            <marker date="1500713839054" expanded="true" signature="3385:3434" ph="..." />
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
           </folding>
         </state>
       </provider>
@@ -198,8 +198,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
-            <marker date="1500713839054" expanded="true" signature="3385:3434" ph="..." />
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
           </folding>
         </state>
       </provider>
@@ -209,19 +208,37 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
-            <marker date="1500713839054" expanded="true" signature="3385:3434" ph="..." />
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MemorialDay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
-            <marker date="1500713839054" expanded="true" signature="3385:3434" ph="..." />
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2432">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <marker date="1500718495597" expanded="true" signature="3415:3464" ph="..." />
           </folding>
         </state>
       </provider>
