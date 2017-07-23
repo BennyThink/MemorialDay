@@ -18,7 +18,10 @@
 ![](http://i.imgur.com/MwcBC39.jpg)
 * Typecho
 ![](http://i.imgur.com/GJ7C1lG.jpg)
+
 ## Q&A ##
+### 默认纪念日？ ###
+默认在06-04和07-13网站将会变成黑白。
 ### theme-color是什么，我该怎么设置 ###
 此项值用来控制Android Chrome通知栏和标题栏变色，通过这样一个meta：
 `<meta name="theme-color" content="#299981">`

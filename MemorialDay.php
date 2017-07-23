@@ -3,7 +3,7 @@
 Plugin Name: 纪念日
 Plugin URI: https://github.com/BennyThink/MemorialDay
 Description: 在指定日期将网站改成黑白色来缅怀逝去的生命
-Version: 0.2.1
+Version: 0.2.2
 Author: Benny小土豆
 Author URI: http://www.bennythink.com
 */
@@ -33,6 +33,7 @@ function memorial_day() {
 	$options     = get_option( 'plugin_options' );
 	$theme_color = $options['text_string'];
 	$custom_date = $options['text_date'];
+
 
 	if ( strstr( $custom_date, date( 'm-d', time() ) ) ):?>
 
@@ -133,6 +134,10 @@ function plugin_admin_init() {
 
 function plugin_date_text() {
 	$options = get_option( 'plugin_options' );
+	if(empty($options['text_date']))
+		$options['text_date']=$options['text_date'].
+        '06-04
+07-13';
 	echo "<textarea name='plugin_options[text_date]'>" . $options['text_date'] . "</textarea>";
 
 }

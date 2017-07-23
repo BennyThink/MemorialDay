@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587c0bf1-7468-489d-b8e0-f9ff2d7a3734" name="Default" comment="" />
+    <list default="true" id="587c0bf1-7468-489d-b8e0-f9ff2d7a3734" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MemorialDay.php" afterPath="$PROJECT_DIR$/MemorialDay.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,25 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemorialDay.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemorialDay.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MemorialDay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
-                <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="e#6#131#0#PHP" expanded="true" />
+                <marker date="1500769477473" expanded="true" signature="3839:3888" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,8 +41,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MemorialDay.php" />
         <option value="$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php" />
+        <option value="$PROJECT_DIR$/MemorialDay.php" />
       </list>
     </option>
   </component>
@@ -84,8 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,6 +94,13 @@
               <item name="wp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MemorialDay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemorialDay" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -154,11 +152,12 @@
       <workItem from="1500719346435" duration="663000" />
       <workItem from="1500720246415" duration="926000" />
       <workItem from="1500722378601" duration="2864000" />
+      <workItem from="1500768951475" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25592000" />
+    <option name="totallyTimeSpent" value="26091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -199,100 +198,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MemorialDay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="1026">
           <caret line="54" column="5" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <marker date="1500721298801" expanded="true" signature="3734:3783" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="1235">
           <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php" />
+    <entry file="file://$PROJECT_DIR$/../../../../ty/usr/plugins/HelloWorld/Plugin.php" />
+    <entry file="file://$PROJECT_DIR$/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorialDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#6#131#0#PHP" expanded="true" />
+            <marker date="1500769477473" expanded="true" signature="3839:3888" ph="..." />
           </folding>
         </state>
       </provider>
