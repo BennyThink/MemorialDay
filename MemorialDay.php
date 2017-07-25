@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: 纪念日
+Plugin Name: Memorial Day
 Plugin URI: https://github.com/BennyThink/MemorialDay
 Description: 在指定日期将网站改成黑白色来缅怀逝去的生命
-Version: 0.2.2
-Author: Benny小土豆
+Version: 0.2.3
+Author: Benny
 Author URI: http://www.bennythink.com
 */
 
@@ -28,8 +28,8 @@ Author URI: http://www.bennythink.com
 
 date_default_timezone_set( 'Asia/Shanghai' );
 
-add_action( 'wp_head', 'memorial_day' );
-function memorial_day() {
+add_action( 'wp_head', 'btmd_memorial_day' );
+function btmd_memorial_day() {
 	$options     = get_option( 'plugin_options' );
 	$theme_color = $options['text_string'];
 	$custom_date = $options['text_date'];
@@ -47,15 +47,15 @@ function memorial_day() {
 
             -->
         </style>
-		<?php change_meta() ?>
+		<?php btmd_change_meta() ?>
 
 	<?php elseif ( ! empty( $theme_color ) ): ?>
         <meta name="theme-color" content="<?= $theme_color; ?>">
-		<?php change_meta($theme_color) ?>
+		<?php btmd_change_meta($theme_color) ?>
 	<?php endif; ?>
 <?php }
 
-function change_meta($hex_color='757575') {
+function btmd_change_meta($hex_color='757575') {
 	?>
     <script>
         var meta = document.getElementsByTagName('meta');
@@ -64,8 +64,8 @@ function change_meta($hex_color='757575') {
 	<?
 }
 
-add_filter( 'plugin_action_links', 'add_qzone_settings_link', 10, 2 );
-function add_qzone_settings_link( $links, $file ) {
+add_filter( 'plugin_action_links', 'btmd_add_qzone_settings_link', 10, 2 );
+function btmd_add_qzone_settings_link( $links, $file ) {
 	static $this_plugin;
 	if ( ! $this_plugin ) {
 		$this_plugin = plugin_basename( __FILE__ );
@@ -80,21 +80,21 @@ function add_qzone_settings_link( $links, $file ) {
 }
 
 
-add_action( 'admin_menu', 'plugin_admin_add_page' );
-function plugin_admin_add_page() {
+add_action( 'admin_menu', 'btmd_admin_add_page' );
+function btmd_admin_add_page() {
 	add_options_page(
-		'纪念日 设置页面',
-		'纪念日  设置',
+		'MemorialDay 设置页面',
+		'MemorialDay 设置',
 		'manage_options',
 		'MemorialDay',
-		'plugin_options_page' );
+		'btmd_options_page' );
 }
 
-function plugin_options_page() {
+function btmd_options_page() {
 	?>
     <div>
-        <h2>以此来缅怀那些逝去的生命</h2>
-        请设置你需要的日期（形如07-13）与主题颜色（theme-color）
+         <h2>以此来缅怀那些逝去的生命</h2>  
+        请设置你需要的日期（形如07-13）与主题颜色（theme-color）  
         <form action="options.php" method="post">
 			<?php settings_fields( 'plugin_options' ); ?>
 			<?php do_settings_sections( 'plugin' ); ?>
@@ -107,8 +107,8 @@ function plugin_options_page() {
 }
 
 
-add_action( 'admin_init', 'plugin_admin_init' );
-function plugin_admin_init() {
+add_action( 'admin_init', 'btmd_admin_init' );
+function btmd_admin_init() {
 	register_setting(
 		'plugin_options',
 		'plugin_options',
@@ -117,7 +117,7 @@ function plugin_admin_init() {
 	add_settings_section(
 		'plugin_main',
 		'日期设置，一行一个',
-		'plugin_date_text',
+		'btmd_date_text',
 		'plugin'
 	);
 
@@ -125,14 +125,14 @@ function plugin_admin_init() {
 	add_settings_section(
 		'plugin_main2',
 		'theme-color，十六进制不需要带#',
-		'plugin_color_text',
+		'btmd_color_text',
 		'plugin'
 	);
 
 
 }
 
-function plugin_date_text() {
+function btmd_date_text() {
 	$options = get_option( 'plugin_options' );
 	if(empty($options['text_date']))
 		$options['text_date']=$options['text_date'].
@@ -142,7 +142,7 @@ function plugin_date_text() {
 
 }
 
-function plugin_color_text() {
+function btmd_color_text() {
 	$options = get_option( 'plugin_options' );
 	echo "<input id='color_string' name='plugin_options[text_string]' size='40' 
 type='text' value='{$options['text_string']}' />" . "<br>" . "<br>";
