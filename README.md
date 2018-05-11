@@ -33,5 +33,8 @@
 ### 纪念日时Firefox最上面有一个横条 ###
 我也不知道为啥，Chrome就没有...（WordPress）
 
-### License ###
+## 更多说明 ##
+纪念日功能继承在我的[WordPress](https://github.com/BennyThink/WordPressGit)主题和[Typecho](https://github.com/BennyThink/GreenGrapes2)主题中，功能更为强大，支持临时关闭以及显示纪念日信息。
+
+## License ##
 GPLv2
